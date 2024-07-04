@@ -1,0 +1,324 @@
+body{
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: #E5EAFF;
+  max-width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+section{
+  padding-top: 20px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+p{
+  line-height: 1.25em;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+p a, h4 a{
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  line-height: 1.25em;
+  margin: 0;
+}
+
+.header{
+  padding-top: 20px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  width: 158px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+h4{
+  font-size: 14px;
+}
+
+.wrapper .hero-text{
+  color: #28293D;
+}
+
+.image{
+  width: 465px;
+}
+
+.mobile{
+  display: none;
+}
+
+.intro, .intro-large{
+  text-align: center;
+}
+
+.intro-small{
+  display: none;
+}
+
+.button{
+  background: #DA2E71;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.71em;
+  display: block;
+  width: 176px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.32);
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  width: 568px;
+  gap: 16px;
+}
+
+.action-wrap .hero-text{
+  gap: 8px;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-container{
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  margin: 0 auto;
+}
+
+.feature{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.feature-title{
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.action-wrap{
+  background: url(../img/Union.svg);
+  width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 40px 28px 20px 28px;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.action-wrap .feature{
+  gap: 20px;
+}
+
+.game-ttl{
+  display: flex;
+  margin-left: 2px;
+  gap: 8px;
+}
+
+.game-ttl p{
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer{
+  background: url(../img/bg.svg);
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  padding: 20px 28px;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer .container{
+  gap: 8px;
+}
+
+.credits{
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.credits h4 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+p.credits {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.credits a {
+  color: #fff;
+}
+
+.soc-media-supergra, .soc-media{
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  color: #fff;
+}
+
+.soc-media-supergra{
+  border: 2px solid rgba(255,59,59,1);
+}
+
+.soc-media{
+  border: 2px solid #3E7BFA;
+}
+
+.supergra{
+  background: url(../img/BG\ Image.png);
+  border-radius: 20px 0 0 20px;
+  gap: 4px;
+}
+
+.telegram{
+  background: url(../img/BG\ Image2.png);
+  border-radius: 20px 0 0 20px;
+}
+
+.supergra, .telegram{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 16px 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.32);
+}
+
+.supergra p{
+  width: 264px;
+  text-align: left;
+}
+
+.supergra-ttl, .telegram-ttl{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 264px;
+}
+
+.button-footer .button, .callback .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 178px;
+  height: 40px;
+}
+
+.button-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px;
+}
+
+.soc-media-supergra .button, .callback .button{
+  background: linear-gradient(119deg, rgba(255,59,59,1) 0%, rgba(102,0,204,1) 100%);
+}
+
+.soc-media .button{
+  background: linear-gradient(119deg, rgba(62,123,250,1) 0%, rgba(102,0,204,1) 100%);
+}
+
+.notification-mobile{
+  display: none;
+}
+
+.notification{
+  position: relative;
+  z-index: 3;
+  top: -50px;
+  right: -5px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.32));
+}
+
+.soc-media .notification{
+  top: -35px;
+}
+
+.line{
+  width: 508px;
+  height: 0;
+  transform: rotate(180deg);
+  border: 1px rgba(255, 255, 255, 0.60) dashed;
+}
+
+.callback, .comment{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 508px;
+}
+
+.question{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comment{
+  width: auto;
+}
+
+.comment p{
+  color: #818296;
+  font-size: 10px;
+}
+
+.comment a{
+  color: #DA2E71;
+}
